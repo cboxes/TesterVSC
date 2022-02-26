@@ -58,7 +58,6 @@ namespace ProjectChallenge
 			}
 			Empleados[] EmpleadoNew =  Arrays.CopyOf(Empleado, LineaNum);
 			return EmpleadoNew;
-		}
-	
+		}	
 	}
 }
