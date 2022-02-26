@@ -12,7 +12,6 @@ public CalculaPago(Empleados[] Empleado, double valorHoraT)
 	DateTime dHoraI;
 	DateTime dHoraF;
 	double valorHora = 0.00;
-
 	String sNombrex = Empleado[0].nombre;
 	try
 	{
