@@ -17,7 +17,7 @@ PagoEmpleado
    .txt file with at least five data sets. An example file is attached and can be used to test the program.
 
   The text file is called file_hour.txt. The entire exercise must be run in the same directory where it is downloaded
-  the solution from github.
+  the solution from github. In the folder C:\PagoEmpleados\files> is the evidence file, file_hour.txt
 
   The solution validates that the data is entered in the following format:
   ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
