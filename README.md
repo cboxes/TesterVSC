@@ -29,11 +29,14 @@ PagoEmpleado
 
    Architecture
    ------------
+   PagoEmpleados.csproj: Project.
    PagoEmpleado.cs: Where the process starts.
+   PagoEmpleadoTester.cs: Allows you to perform unit tests.
    Empleados.cs: To instantiate each employee and his attributes.
    Validar.cs : Validates that abbreviations and input data formats are respected from the txt file.
    CalculaPago.cs: Allows the calculation of the total payments for each employee based on the schedules.
    Arrays.cs: This class is used to replace some calls to Arrays methods with the C# equivalent.
+   Program.cs: It is the main program.
     
 
    Object-oriented development is focused and under the xp methodology (it allows to have fewer lines of code and tests
@@ -42,24 +45,20 @@ PagoEmpleado
   Documentation
   -------------
 
-  The most up-to-date documentation can be found at https://github.com/cboxes/TesterRepositoty.
+  The most up-to-date documentation can be found at https://github.com/cboxes/TesterC-.git.
 
 
   System Requirements
   -------------------
 
-  JDK:
-    1.7 or above (this is to execute Maven - it still allows you to build against 1.3
-    and prior JDK's).
+  .Net Core SDK:
+    https://dotnet.microsoft.com/en-us/download.
   Memory:
     No minimum requirement.
   Operating System:
     Windows:
       Windows 10 or above.
       No minimum requirement.
-  mockito-all-2.0.2-beta.jar
-    To download the latest version of Mockito from Maven Repository click in.
-    http://mvnrepository.com/artifact/org.mockito/mockito-all/2.0.2-beta
 
 
    Run the program
