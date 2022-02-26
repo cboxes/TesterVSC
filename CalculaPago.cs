@@ -8,7 +8,6 @@ public class CalculaPago
 
 public CalculaPago(Empleados[] Empleado, double valorHoraT)
 {
-
 	this.valorHoraT = valorHoraT;
 	DateTime dHoraI;
 	DateTime dHoraF;
