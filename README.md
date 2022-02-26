@@ -67,7 +67,7 @@ PagoEmpleado
    Run the following command line:
         C:>dotnet new console -o PagoEmpleados
    This will create the template with the necessary files for a C# program.
-   Download the package from the url: and copy it to the folder PagoEmpleados.
+   Download the package from the url: https://github.com/cboxes/TesterVSC and copy it to the folder PagoEmpleados.
    Change to the PagoEmpleados folder and run the command:
         C:\PagoEmpleados>dotnet build
    Now run the command: 
