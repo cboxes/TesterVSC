@@ -45,7 +45,7 @@ PagoEmpleado
   Documentation
   -------------
 
-  The most up-to-date documentation can be found at https://github.com/cboxes/TesterC-.git.
+  The most up-to-date documentation can be found at https://github.com/cboxes/TesterVSC.git.
 
 
   System Requirements
@@ -63,36 +63,30 @@ PagoEmpleado
 
    Run the program
    --------------------
+   In Windows press Windows key + R, then type “cmd” and press enter.
+   Run the following command line:
+        C:>dotnet new console -o PagoEmpleados
+   This will create the template with the necessary files for a C# program.
+   Download the package from the url: and copy it to the folder PagoEmpleados.
+   Change to the PagoEmpleados folder and run the command:
+        C:\PagoEmpleados>dotnet build
+   Now run the command: 
+        C:\PagoEmpleados>dotnet run
 
-   Download the package from the url:
-   On your local computer create a folder of your choice. Example c:\Solution
-   Inside this created folder copy the downloaded files.
-   Go to windows explorer and type "cmd" to open a command prompt.
-   1) Compile the java files as follows:
-     C:\Solucion>javac Validar.java CalculaPago.java Empleados.java PagoEmpleado.java PagoEmpleadoTester.java
-     and then press <Enter>.
-   2) Run the following:
-      java PagoEmpleado
-
-   C:\Solucion>java PagoEmpleado
-   The amount to pay RENE is: 100.0 USD
-   The amount to pay ASTRID is: 60.0 USD
-   The amount to pay SAUL is: 85.0 USD
-   The amount to pay BRAT is: 105.0 USD
-   The amount to pay MICTHE is: 60.0 USD
+   The amount to pay RENE is: 100 USD
+   The amount to pay ASTRID is: 60 USD
+   The amount to pay SAUL is: 85 USD
+   The amount to pay BRAT is: 105 USD
+   The amount to pay MICTHE is: 60 USD
+   The amount to pay ROB is: 85 USD
 
    Unit tests
    -----------------
-   In this example, we've created a mock of CalculaPago to get the dummy pay of some employees and unit tested a java class named PagoEmpleado.
+   In the example, unit tests will be used with xunit on the CalculaPago class.
   
-   Step 1 - Test the PagoEmpleado class.
-   Let's test the PagoEmpleado class, by injecting in it a mock of CalculoPago. Mock will be created by Mockito.
-   
-   Step 2 − Verify the result
-   Now run the PagoEmpleadoTester to see the result:
- 
-   C:\Solucion>java --add-opens java.base/java.lang=ALL-UNNAMED PagoEmpleadoTester
+   Run the command: C:\PagoEmpleados>dotnet test
   
-   Verify the Output
-   
-   pass
+   Iniciando la ejecución de pruebas, espere...
+   1 archivos de prueba en total coincidieron con el patrón especificado.
+
+   Correctas! - Con error:     0, Superado:     6, Omitido:     0, Total:     6, Duración: 6 ms - PagoEmpleados.dll (net6.0)
