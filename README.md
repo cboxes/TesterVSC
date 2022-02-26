@@ -90,3 +90,4 @@ PagoEmpleado
    1 archivos de prueba en total coincidieron con el patrón especificado.
 
    Correctas! - Con error:     0, Superado:     6, Omitido:     0, Total:     6, Duración: 6 ms - PagoEmpleados.dll (net6.0)
+   
